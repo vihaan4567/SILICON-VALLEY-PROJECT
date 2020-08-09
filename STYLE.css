@@ -1,0 +1,37 @@
+h1 {
+    color:salmon;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color : black;
+    display: flex;
+    justify-content: space-around;
+}
+.class{
+    justify-content: flex-start;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
